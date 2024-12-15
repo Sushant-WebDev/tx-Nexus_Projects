@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000000;
+    background-image:
+    repeating-linear-gradient(
+        to right, transparent 0 100px,
+        #ffffff96 100px 109px
+    ),
+    repeating-linear-gradient(
+        to bottom, transparent 0 100px,
+        #ffffff99 100px 109px
+    );
+}
+
+h1 {
+    font-size: 230px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.cursor{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    mix-blend-mode: difference;
+    background-color: white;
+    border-radius: 50%;
+}
+
